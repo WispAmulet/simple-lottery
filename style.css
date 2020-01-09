@@ -1,0 +1,60 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 53rem;
+  height: 53rem;
+  background: #ff6767;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  width: 47rem;
+  height: 47rem;
+  background: #ff0000;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.box {
+  width: 15rem;
+  height: 15rem;
+  background: #fff6f6;
+  margin: 0.5rem;
+  margin-right: 0;
+  margin-bottom: -0.5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box.active {
+  border: 0.5rem solid #ffc600;
+  color: #ffc600;
+}
+.box5 {
+  background: #ffc600;
+  cursor: pointer;
+}
